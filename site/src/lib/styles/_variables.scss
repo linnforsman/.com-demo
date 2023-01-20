@@ -1,0 +1,54 @@
+$font-stack: Input;
+$max-w-prose: 65ch;
+$max-w-2xl: 1536px;
+$max-w-xl: 1280px;
+$max-w-lg: 1024px;
+$max-w-sm: 20rem;
+$max-w-md: 768px;
+$mx-auto: 0 auto 0 auto;
+$mx-8: auto 2rem auto 2rem;
+$px-8: 0 2rem 0 2rem;
+
+// Custom font
+@font-face {
+  font-family: Input;
+  src: url(./font/InputSansCompressed-ExtraLight.ttf) format("truetype");
+}
+
+.container-2xl {
+  max-width: $max-w-2xl;
+}
+
+.container-xl {
+  max-width: $max-w-xl;
+}
+
+.container-lg {
+  max-width: $max-w-lg;
+}
+
+.container-md {
+  max-width: $max-w-md;
+}
+
+.container-sm {
+  max-width: $max-w-sm;
+}
+
+.container-prose {
+  max-width: $max-w-prose;
+}
+
+// Center container
+.mx-auto {
+  margin: $mx-auto;
+}
+
+// Margins and paddings
+.mx-8 {
+  margin: $mx-8;
+}
+
+.px-8 {
+  padding: $px-8;
+}

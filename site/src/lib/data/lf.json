@@ -1,0 +1,32 @@
+{
+  "profile": [
+    {
+      "name": "Linn Forsman",
+      "intro": "Focused, autonomous, a results-oriented programmer with a versatile technology competence in data science, analytics and web technologies. Blending creativity, technical prowess and a taste for business to create end-to-end solutions for businesses."
+    }
+  ],
+
+  "pastExperience": [
+    { "company": "Contract/Engagement", "jobtitle": "Data Science Intern" },
+    { "company": "Freelance", "jobtitle": "Freelance Audio Producer" },
+    {
+      "company": "Jevnaker Kommune, Hønefoss videregående skole",
+      "jobtitle": "ICT Service Intern"
+    },
+    {
+      "company": "Ringerike Kultursenter, UKM Norge and various",
+      "jobtitle": "Audio Engineer / Programmer / Technician / Stagehand"
+    },
+    { "company": "Studiefrämjandet, UKM Sverige", "jobtitle": "Stagehand" },
+    {
+      "company": "Rackstadmuseet",
+      "jobtitle": "Garden Maintaner, Janitor, Café servant"
+    }
+  ],
+
+  "skillset": [
+    { "skillset": "Technical", "category": "Basis" },
+    { "skillset": "Analytical", "category": "Core" },
+    { "skillset": "Business understanding", "category": "Enablement" }
+  ]
+}

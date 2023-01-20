@@ -1,0 +1,61 @@
+$intelligence: linear-gradient(to right, #06bfff 50%, #2b74ff 100%);
+$blueintelligence: #1ba0f2;
+$intelblue: #0071c5;
+
+// Highlight
+$ready: #00ff00;
+$error: hsl(355, 97%, 50%);
+
+// Blue swatches
+$deepblue: #0a3e91;
+$deepblue-1: #0949aa;
+$deepblue-2: #0c59cb;
+$deepblue-3: #2179fe;
+$blue-accent: #7ac9f8;
+$blue-accent-1: #00d0ff;
+// Light mode neutrals
+$neutral0: #ffffff;
+$neutral100: #f7f8f9;
+$neutral200: #f1f2f4;
+$neutral300: #dcdfe4;
+$neutral400: #b3b9c4;
+$neutral500: #8993a5;
+// Dark mode neutrals
+$darkneutral-100: #000000;
+$darkneutral0: #161a1d;
+$darkneutral100: #1d2125;
+$darkneutral200: #22272b;
+$darkneutral300: #2c333a;
+$darkneutral400: #454f59;
+$darkneutral500: #596773;
+
+// For <Button/>
+$bg-darkblue: radial-gradient(#0c59cb, #0949aa, #0a3e91);
+
+// Background gradients for <Introduction/> component.
+$bg-lightgradient: radial-gradient(
+    ellipse at top right,
+    rgb(255, 255, 255),
+    transparent
+  ),
+  radial-gradient(ellipse at left, rgb(137, 147, 165), transparent);
+
+$bg-darkgradient: radial-gradient(ellipse at right, #000000, transparent),
+  radial-gradient(ellipse at bottom, #596773, transparent);
+
+$bg-grey: radial-gradient(ellipse at bottom right, #e5e5e5, transparent),
+  radial-gradient(ellipse at top left, rgb(255, 255, 255), transparent);
+
+// Gradient text
+$gradient-light-text: radial-gradient(
+    ellipse at top,
+    rgb(39, 108, 235),
+    transparent
+  ),
+  radial-gradient(ellipse at right, rgb(137, 147, 165), transparent);
+
+$gradient-dark-text: radial-gradient(
+  ellipse at left,
+  rgb(107, 111, 117),
+  transparent
+);

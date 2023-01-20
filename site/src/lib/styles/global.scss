@@ -1,0 +1,151 @@
+@import "variables", "palette";
+html,
+body {
+  margin: 0;
+  bottom: 0;
+  font-family: $font-stack;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: $blue-accent;
+  .active {
+    color: $intelligence;
+  }
+  & a:visited {
+    color: $blueintelligence;
+  }
+}
+
+.logo {
+  color: $deepblue-3;
+}
+.introduction {
+  background: $bg-lightgradient;
+  & .title {
+    text-transform: uppercase;
+    color: $gradient-light-text;
+  }
+  & .subtitle {
+    color: $deepblue;
+  }
+}
+
+.card {
+  background: $bg-grey;
+}
+
+.generic-btn {
+  background: $bg-darkblue;
+  border: none;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  &:hover {
+    background: #09326c;
+    transition: 0.8s;
+  }
+  &:active {
+    background: #082145;
+  }
+  & a {
+    color: $neutral200;
+    font-size: 20px;
+  }
+}
+
+.custom-btn {
+  background: #bfbfbf;
+  border: none;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  &:hover {
+    background: $neutral400;
+    transition: 0.8s;
+  }
+  &:active {
+    background: $neutral500;
+  }
+  & a {
+    color: $neutral200;
+    font-size: 20px;
+  }
+}
+
+.navlistitem {
+  color: $darkneutral-100;
+  text-transform: uppercase;
+  &:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: block;
+    text-transform: uppercase;
+    transition: color 0.7s;
+    width: 100%;
+  }
+}
+
+// DARK THEME
+
+@media (prefers-color-scheme: dark) {
+  body.dark .switch::after {
+    transform: scale(1.1, 1.1);
+  }
+}
+body.dark {
+  background: $darkneutral300;
+  color: $neutral200;
+  .introduction {
+    background: $bg-darkgradient;
+    .title {
+      color: $neutral0;
+    }
+    .subtitle {
+      color: $blue-accent-1;
+    }
+  }
+  .logo {
+    color: $blue-accent;
+  }
+
+  .project-title {
+    color: $blue-accent-1;
+  }
+  aside,
+  .fullpage {
+    background-color: $darkneutral300;
+    color: $neutral300;
+  }
+  .navlistitem {
+    color: $blue-accent-1;
+    text-transform: uppercase;
+    &:hover {
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      display: block;
+      text-transform: uppercase;
+      transition: color 0.7s;
+      width: 100%;
+    }
+  }
+
+  .card {
+    background: $darkneutral0;
+  }
+}
+
+body.light aside,
+.fullpage {
+  background: $bg-lightgradient;
+  color: $darkneutral300;
+}
